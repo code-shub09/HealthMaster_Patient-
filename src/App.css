@@ -1,0 +1,689 @@
+html{
+  font-size: 16px;
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 75%; /* 12px if the default is 16px */
+  }
+  
+
+   
+}
+
+
+
+
+.PatientContainer{
+  margin: 0;
+  width: 100vw;
+  background-color:#dfdad27c;
+  height: fit-content;
+
+
+
+}
+
+.Pinnacle-Healthcare{
+  margin-left: 1rem;
+  color: aliceblue;
+  font-weight: 500;
+}
+
+.nav-div{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+nav{
+  background-color: inherit;
+  /* position: fixed !important; */
+  width: 100vw;
+  /* top: 0px; */
+  /* right: 0px; */
+  z-index: 2;
+  padding-right: 10px !important;
+  
+
+  /* overflow: hidden; */
+  /* margin-left: 0px !important; */
+
+}
+
+.nav-div >div{
+  width: 30%;
+  height: 100%;
+  border: 2px red solid;
+ 
+}
+
+
+.bg-body-tertiary {
+  background-color: #0091ff !important;
+  
+}
+.navbar-collapse{
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: end !important;
+}
+
+ 
+.login button{
+  height: 70%;
+  width :30%;
+  border-radius: 15px;
+  background-color: black;
+  color: aliceblue;
+  
+}
+.xCol{
+  color: blue !important;
+}
+
+.main-navigation{
+  margin-right: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+
+}
+.main{
+  width: 100vw;
+}
+
+
+.Home{
+  width: 100%;
+  margin-top: 20vh !important;
+  /* background-color:#ffe4c461; */
+  overflow: hidden;
+  
+}
+.Hero-title{
+  width: 30%;
+
+
+}
+.Hero-title p{
+
+  opacity: 66%;
+  font-size: 0.8rem;
+
+}
+
+.Hero-container{
+  margin-top: 8%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+
+.heroImg img{
+  position: relative;
+  right: 0;
+  width: 40vw;
+  height: 70vh;
+}
+
+.speciality{
+  width: 100%;
+  height:min-content;
+  display: flex;
+  /* border: 2px rgba(156, 22, 22, 0.502) solid; */
+  justify-content: space-around;
+
+}
+.specialit-sideImg{
+  width: 40%;
+
+}
+.specialit-sideImg img{
+  margin-top: 8rem;
+  width: 99%;
+  height: auto;
+
+}
+
+.specialit-right{
+  width: 40%;
+}
+.specialit-right h2{
+  margin-bottom: 1.5rem;
+}
+.specialit-list{
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  
+}
+.specialit-list >div{
+  width: 90%;
+  height: 20vh;
+  border: 2px #64b5f6 solid !important;
+  background-color: rgba(255, 255, 255, 0.29);
+  margin-top: 1rem;
+  border-radius: 12px;
+}
+.specialit-list >div img{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 4rem;
+  height: 4rem;
+}
+.specialit-list >div span{
+  margin-left: 3.5rem;
+  font-size: large;
+  font-weight: 600;
+}
+
+.specialit-list-hover:hover{
+  background-color: #90caf9;
+}
+
+.Message-container{
+  margin-top: 4rem;
+  width: 100vw;
+
+}
+.Message-container h3{
+  text-align: center;
+}
+
+.MessageBox{
+  width: 100%;
+  /* margin-left: 5rem;
+  margin-right: 5rem; */
+}
+
+.mess-form{
+  width: 100%;
+}
+.div-input{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+
+}
+
+.div-input input{
+  width: 40%; 
+  margin-top: 2.5rem;
+  border-radius: 5px;
+
+}
+.mess-form textarea{
+  margin-left: 4.3rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  width: 90%;
+  height: 20vh;
+  border-radius: 10px;
+
+}
+.mess-form button{
+  width: 5rem;
+  margin-top: 2rem;
+  position: relative;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  left: 47%;
+  
+}
+ 
+.login{
+  width:100%;
+  height:100vh;
+  margin-top: 20vh;
+  /* background-color: rgb(43, 48, 53);
+  height: inherit;
+   */
+}
+.signUpOptX{
+  text-align: center;
+}
+
+.signUpOptX span{
+  font-weight: 600;
+
+}
+
+.form-signin{
+  width: 40vw !important;
+  /* background-color: blueviolet; */
+
+}
+.pls-log{
+  /* position: relative;
+  left: 0; */
+  text-align: center;
+}
+
+.AppointForm{
+  
+
+
+  /* position: relative; */
+  min-height: 75vh;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  margin-top: 7rem;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  gap: 15px;
+  background-color: #bbdefb;
+  border-radius: 10px;
+}
+
+.AppointForm >div{
+
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 40% ;
+  text-align: center;
+  /* border: 2px black solid; */
+}
+.com-select{
+  
+  border: 2px black solid !important;
+  width: 70% !important;
+  
+
+}
+.react-datepicker-wrapper{
+  border: 1px black solid;
+
+  width: 70%;
+}
+.react-datepicker__input-container {
+  width: 100% !important;
+  /* border: 1px rgb(19, 140, 114) solid; */
+  border: 2px black solid !important;
+  overflow: hidden;
+
+}
+.react-datepicker__input-container input{
+  border: none;
+  width: 100% !important;
+  
+
+}
+.AppointForm > div input,
+.AppointForm > div select,
+.AppointForm > div button {
+
+  height: 2rem;
+  width: 60%;
+  border-radius: 5px;
+  border-color: aliceblue;
+  min-width: 200px !important;
+  
+}
+.AppointForm >div button{
+  background-color: rgb(0, 119, 255);
+  color: aliceblue;
+  border-color:rgb(0, 119, 255); 
+  width: 70%;
+}
+@media (max-width: 600px) {
+  .AppointForm {
+    flex-direction: row; /* Row layout for medium and larger screens */
+    width: 98%;
+  }
+
+  .AppointForm > div {
+    width: 45%; /* Adjust width for larger screens */
+    margin: 2rem;
+  }
+}
+.dropdown-menu{
+  /* max-width: fit-content !important; */
+  width: 19vw !important;
+  border: none;
+
+}
+
+.dropdown-menu img{
+  width: 1.5rem !important;
+  height: auto !important;
+}
+.dropdown-menu span{
+  font-size: .6rem !important;
+  margin-left: 0.5rem !important;
+}
+.dropdown-menu h2{
+  font-size: 1rem !important;
+  text-align: center !important;
+  margin-bottom: 0;
+}
+.dropdown-menu .specialit-right{
+  width: 100% !important;
+}
+
+.dropdown-menu .specialit-list {
+  width: 100% !important;
+}
+.dropdown-menu .specialit-list >div{
+  width: 90% !important;
+  margin: auto !important;
+  height: fit-content !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.108);
+  border-radius: 10px !important;
+  padding-bottom: 2px !important;
+}
+
+/* footer */
+.shub-foot{
+  width: 98.7vw !important;
+  background-color: cornflowerblue;
+  color: aliceblue;
+ margin-top: 10px;
+  overflow: hidden;
+  padding-left: 10px;
+ padding-top: 20px;
+}
+footer {
+  padding-bottom: 30px !important;
+}
+footer hr {
+  margin-bottom: 30px;
+}
+footer .content {
+  display: flex;
+  /* gap: 20px; */
+  width: 100%;
+  
+}
+footer .content div {
+  flex: 1;
+}
+footer .content div:nth-child(3) {
+  flex: 2;
+}
+footer .content div h4 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+footer .content div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .content div ul a {
+  color: gray;
+  text-decoration: none;
+}
+footer .content div ul a:hover {
+  color: #8570ed;
+  transition: 0.3s;
+}
+footer .content div ul li span {
+  color: gray;
+}
+footer .content div ul li span:first-child {
+  width: 150px;
+  display: inline-block;
+}
+
+footer .content div:last-child div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.logo-img{
+  width: 3rem;
+}
+footer .content div:last-child div svg {
+  font-size: 24px;
+}
+@media (max-width: 1135px) {
+  footer .content {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .content div,
+  footer .content div:nth-child(3) {
+    flex: none;
+    width: 340px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 900px) {
+  footer {
+    padding-bottom: 0 !important;
+  }
+  footer .content div,
+  footer .content div:nth-child(3) {
+    width: 100%;
+  }
+}
+@media (max-width: 390px) {
+  footer .content div:nth-child(3) ul li {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* history */
+
+.history{
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+  margin-top: 15vh;
+  height: 90vh;
+
+  width: 100%;
+}
+
+.history-option{
+
+  width: 73%;
+  margin: auto;
+ 
+  height: 7vh;
+  /* border: 2px solid red; */
+  background-color: #a9a9a94f;
+  border-radius: 8px;
+  display: flex;
+    justify-content:left; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+           /* Adjust padding as needed */
+    box-sizing: border-box; 
+    padding-left: 2rem;
+}
+.history-option button{
+  margin-left: 1rem;
+  border: none;
+  background-color: #a9a9a900;
+  color: #6d6a6a;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.upcomingappointment-box{
+  display: flex;
+  flex-direction: column;
+ /* justify-content: space-around;
+ align-content: space-around ; */
+
+}
+.history-appointXY{
+  height: 70%;
+  overflow:scroll;
+
+}
+.history-appointXY::-webkit-scrollbar{
+  display: none;
+}
+.single-appoint{
+
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  border: 1px rgb(176, 173, 173) solid;
+  margin-top: 1rem;
+  border-radius: 30px;
+  /* padding-top: 1.2rem; */
+  /* padding-bottom: 1.2rem; */
+  background-color: azure;
+  align-items: center;
+   
+
+
+
+}
+
+.doctor-img-appoint{
+      width: 6rem;
+      height: 6rem;
+      border: 2px red solid;
+      border-radius: 50%;
+      /* text-align: center; */
+      display: flex;
+      flex-wrap: nowrap;
+      align-content: space-around;
+      justify-content: space-around;
+      align-items: center;
+
+
+}
+.doctor-img-appoint img{
+  width: 60%;
+ 
+
+}
+
+
+.appoint-details{
+     width: 60%;
+     height: auto;
+   
+}
+.appoint-details p{
+  color: #0091ff;
+  line-height: 0.5;
+}
+.appoint-details p span{
+  margin-left: 0.9rem;
+  color: black;
+  font-weight: 450;
+}
+.appoint-details h4{
+  margin-left: -2.7rem;
+  /* margin-bottom: 1rem; */
+}
+.doc-name{
+  color: #43901dc4;
+  margin-left: 0.9rem;
+
+}
+
+.time-date{
+  color: dimgrey !important;
+  font-weight: 400 !important;
+  font-size: 1.1rem;
+}
+.activeX{
+  background-color: white !important;
+  color: black !important;
+  
+}
+.history h2{
+  margin-left: 14vw;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+/* signup */
+
+.register-container{
+  margin-top: 18vh;
+  width: 100%;
+ 
+  
+}
+.register-container h2{
+  text-align: center;
+}
+.register-container form{
+  width: 80%;
+  /* border: 2px red solid; */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #bbdefb;
+  border-radius: 20px;
+  
+}
+.register-container form div{
+   width: 60%;
+   margin: auto;
+   border: 1px black solid;
+   /* text-align: center; */
+   height: 55px;
+   margin-top: 20px;
+   /* padding-left: 5px; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   border-radius: 10px;
+   background-color: white;
+
+}
+.register-container form div input{
+  border: none;
+  width: 100%;
+  padding-left: 2px;
+  border-radius: 10px;
+  
+}
+.register-container form div select{
+  border: none;
+ 
+  
+
+}
+.register-container form div p{
+  margin-block-end:2px
+
+}
+.register-container button{
+  width: 120px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  background: linear-gradient(140deg, #9083d5, #271776ca);
+  
+}
+.comZ{
+  height: 100%;
+  border-radius: 10px;
+}
+.dobZ{
+  height: 100% !important;
+
+}
+.dobYY{
+  position: relative;
+}
+.dobYY p{
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
