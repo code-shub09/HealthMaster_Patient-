@@ -34,7 +34,7 @@ function Layout() {
   async function handleLogOut() {
     try {
       const resX = await axios.get(
-        "http://localhost:4200/api/v1/user/patient/logout",
+        "https://healthmaster-4r73.onrender.com/api/v1/user/patient/logout",
         { withCredentials: true }
       );
       console.log("res---", resX);

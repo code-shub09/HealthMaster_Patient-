@@ -32,7 +32,7 @@ function HistoryAppoint() {
     
     async function fun() {
       try {
-        const res = await axios.get("http://localhost:4200/api/v1/appointment/history", {
+        const res = await axios.get("https://healthmaster-4r73.onrender.com/api/v1/appointment/history", {
           withCredentials: true,
           headers: { "Content-Type": "httpOnly" },
         });

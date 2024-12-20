@@ -10,7 +10,7 @@ export function NavLogic(){
   
      async function GetAutheticated(){
         try {
-            const res=await axios.get('http://localhost:4200/api/v1/user/patient/auth',{withCredentials:true,headers:{"Content-Type":"application/json"}});
+            const res=await axios.get('https://healthmaster-4r73.onrender.com/api/v1/user/patient/auth',{withCredentials:true,headers:{"Content-Type":"application/json"}});
              console.log('okkkkk')
             if (res.data.success) {
                 SetAuthenticated(true);

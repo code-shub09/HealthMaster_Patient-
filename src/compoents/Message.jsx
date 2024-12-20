@@ -28,7 +28,7 @@ function Message() {
     e.preventDefault(); // Prevent default form submission
 
     try {
-      const res = await axios.post('http://localhost:4200/api/v1/message/send', formData, {
+      const res = await axios.post('https://healthmaster-4r73.onrender.com/api/v1/message/send', formData, {
         withCredentials: true,
         headers: { "Content-Type": "application/json" }
       });
