@@ -20,7 +20,7 @@ function Login() {
         }
 
         try {
-            const res=await axios.post('http://localhost:4200/api/v1/user/patient/login',formData,{withCredentials:true,headers:{"Content-Type":"application/json"}});
+            const res=await axios.post('https://healthmaster-4r73.onrender.com/api/v1/user/patient/login',formData,{withCredentials:true,headers:{"Content-Type":"application/json"}});
             console.log(res.data.user);
             setUser(res.data.user);
             SetAuthenticated(true);

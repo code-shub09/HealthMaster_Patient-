@@ -29,7 +29,7 @@ function SignUp() {
     setSuccess("");
 
     try { console.log('---',formData);
-      const response = await axios.post("http://localhost:4200/api/v1/user/patient/register", formData, {
+      const response = await axios.post("https://healthmaster-4r73.onrender.com/api/v1/user/patient/register", formData, {
         headers: { "Content-Type": "application/json" },
       });
       console.log(response.data.message)
