@@ -115,7 +115,7 @@ export async function helperFun(doctorID,formData,setTimeOptions,Doc) {
     };
 
     const slot = await axios.post(
-      `http://localhost:4200/api/v1/user/doctor/slots`,
+      `https://healthmaster-4r73.onrender.com/api/v1/user/doctor/slots`,
       slotData,
       { withCredentials: true, headers: { "Content-Type": "application/json" } }
     );

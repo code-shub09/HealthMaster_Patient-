@@ -40,7 +40,7 @@ function Appointment() {
     
       try {
         const resData = await axios.get(
-          "http://localhost:4200/api/v1/user/department",
+          "https://healthmaster-4r73.onrender.com/api/v1/user/department",
           {
             withCredentials: true,
             headers: { "Content-Type": "httpOnly" },
@@ -98,7 +98,7 @@ function Appointment() {
     };
 
     await axios
-      .post("http://localhost:4200/api/v1/appointment", data, {
+      .post("https://healthmaster-4r73.onrender.com/api/v1/appointment", data, {
         withCredentials: true,
         headers: { "Content-Type": "application/json" },
       })
